@@ -7,7 +7,7 @@ monorepo
 
 ## Targets
 - [x] Add several libraries
-- [ ] Add several microapps
+- [x] Add several microapps
 - [ ] Add several apps
 
 - [ ] microapp uses a library
