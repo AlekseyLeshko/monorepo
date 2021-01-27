@@ -15,3 +15,5 @@ monorepo
 
 - [ ] assembly orderly independent
 - [ ] use one version of the product in the whole project
+
+- [ ] add support sub-app like a sandbox

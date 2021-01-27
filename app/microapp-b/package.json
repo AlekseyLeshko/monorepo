@@ -1,11 +1,12 @@
 {
   "name": "microapp-b",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "module": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "license": "MIT",
   "scripts": {
     "start": "node src/index.js",
-    "clear": "rm -rf node_modules"
+    "build": "mkdir dist && cp src/index.js dist/index.js",
+    "clear": "rm -rf node_modules && rm -rf ./dist"
   }
 }
