@@ -1,6 +1,7 @@
 const libraryName = 'microapp-a';
 
 const logger = require('logger');
+const { microappB } = require('microapp-b');
 
 console.log(`library:${libraryName}:start`);
 

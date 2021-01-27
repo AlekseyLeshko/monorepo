@@ -8,6 +8,7 @@
     "start": "node src/index.js"
   },
   "dependencies": {
-    "logger": "1.0.0"
+    "logger": "1.0.0",
+    "microapp-b": "1.0.0"
   }
 }
