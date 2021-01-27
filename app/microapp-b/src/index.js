@@ -1,6 +1,6 @@
-const libraryName = 'microapp-b';
+const microappName = 'microapp-b';
 
-console.log(`library:${libraryName}:start`);
+console.log(`microapp:${microappName}:start`);
 
 const microappB = (num) => {
   return num + 1;
@@ -10,4 +10,4 @@ module.exports = {
   microappB,
 }
 
-console.log(`library:${libraryName}:end`);
+console.log(`microapp:${microappName}:end`);

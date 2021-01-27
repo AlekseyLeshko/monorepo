@@ -1,9 +1,9 @@
-const libraryName = 'microapp-a';
+const microappName = 'microapp-a';
 
 const logger = require('logger');
 const { microappB } = require('microapp-b');
 
-console.log(`library:${libraryName}:start`);
+console.log(`microapp:${microappName}:start`);
 
 const microappA = (num) => {
   const result = num - 1;
@@ -17,4 +17,4 @@ module.exports = {
   microappA,
 }
 
-console.log(`library:${libraryName}:end`);
+console.log(`microapp:${microappName}:end`);
