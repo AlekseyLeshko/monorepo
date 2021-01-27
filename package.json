@@ -9,6 +9,7 @@
     "app/*"
   ],
   "scripts": {
-    "start": "yarn workspaces run start"
+    "start": "yarn workspaces run start",
+    "clear": "rm -rf node_modules"
   }
 }

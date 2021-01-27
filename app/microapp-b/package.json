@@ -5,6 +5,7 @@
   "module": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "clear": "rm -rf node_modules"
   }
 }
