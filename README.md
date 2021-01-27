@@ -6,7 +6,7 @@ monorepo
 - yarn: 1.22.4
 
 ## Targets
-- [ ] Add several libraries
+- [x] Add several libraries
 - [ ] Add several microapps
 - [ ] Add several apps
 
