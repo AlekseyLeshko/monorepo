@@ -10,7 +10,8 @@ monorepo
 - [x] Add several microapps
 - [ ] Add several apps
 
-- [ ] microapp uses a library
+- [x] microapp uses a library
 - [ ] app uses microapps
 
 - [ ] assembly orderly independent
+- [ ] use one version of the product in the whole project

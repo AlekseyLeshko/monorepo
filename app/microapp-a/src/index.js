@@ -1,10 +1,16 @@
 const libraryName = 'microapp-a';
 
+const logger = require('logger');
+
 console.log(`library:${libraryName}:start`);
 
 const microappA = (num) => {
-  return num - 1;
+  const result = num - 1;
+  logger.log([num, 1, result]);
+  return result;
 }
+
+microappA(3);
 
 module.exports = {
   microappA,
