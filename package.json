@@ -11,5 +11,6 @@
   "scripts": {
     "start": "yarn workspaces run start",
     "clear": "rm -rf node_modules"
-  }
+  },
+  "dependencies": {}
 }

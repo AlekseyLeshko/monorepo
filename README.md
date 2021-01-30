@@ -18,17 +18,18 @@ monorepo
 
 - [ ] add support sub-app like a sandbox
 
-- [ ] Before assembling an application, build the dependencies
-- [ ] build scripts in the preinstall step or use the special tool
-  - [ ] https://yarnpkg.com/cli/workspaces/foreach
+- [x] Before assembling an application, build the dependencies
+  - [x] use the src/index in the package.json instead a dist/index
 
 
-- [ ] yarn v2 https://yarnpkg.com/features/workspaces
 
+- [ ] support TS
+  - [ ] main config in the root
+  - [ ] custom config for each app with merge the main config
+- [ ] support eslint
+  - [ ] main config in the root
+  - [ ] custom config for each app with merge the main config
 
 ### links
-- https://stackoverflow.com/questions/57679322/how-to-use-yarn-workspaces-with-typescript-and-out-folders
 - https://github.com/hfour/wsrun
 - https://github.com/prishedko/mrbt
-- https://github.com/yarnpkg/yarn/issues/7150
-- https://yarnpkg.com/cli/workspaces/foreach

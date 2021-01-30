@@ -1,14 +1,17 @@
 {
   "name": "app-a",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "license": "MIT",
   "scripts": {
     "start": "node src/index.js",
-    "build": "mkdir dist && cp src/index.js dist/index.js",
     "clear": "rm -rf node_modules && rm -rf ./dist"
   },
-  "dependencies": {
+  "devDependencies": {
+    "calc": "1.0.0",
+    "logger": "1.0.0",
+    "microapp-a": "1.0.0",
+    "microapp-b": "1.0.0"
   }
 }
