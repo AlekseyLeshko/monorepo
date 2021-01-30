@@ -7,11 +7,5 @@
   "scripts": {
     "start": "node src/index.js",
     "clear": "rm -rf node_modules && rm -rf ./dist"
-  },
-  "devDependencies": {
-    "calc": "1.0.0",
-    "logger": "1.0.0",
-    "microapp-a": "1.0.0",
-    "microapp-b": "1.0.0"
   }
 }
