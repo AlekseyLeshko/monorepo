@@ -13,7 +13,6 @@ monorepo
 - [x] microapp uses a library
 - [x] app uses microapps
 
-- [ ] assembly orderly independent
 - [x] use one version of the product in the whole project
 
 - [ ] add support sub-app like a sandbox
@@ -22,10 +21,10 @@ monorepo
   - [x] use the src/index in the package.json instead a dist/index
 
 
-
 - [ ] support TS
   - [ ] main config in the root
   - [ ] custom config for each app with merge the main config
+
 - [ ] support eslint
   - [ ] main config in the root
   - [ ] custom config for each app with merge the main config
