@@ -14,7 +14,7 @@ monorepo
 - [x] app uses microapps
 
 - [ ] assembly orderly independent
-- [ ] use one version of the product in the whole project
+- [x] use one version of the product in the whole project
 
 - [ ] add support sub-app like a sandbox
 
