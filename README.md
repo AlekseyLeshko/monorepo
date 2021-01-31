@@ -30,6 +30,7 @@ monorepo
   - [x] custom config for each app with merge the main config
 
 - [x] add husky
+- [ ] add lint-staged
 
 - [ ] think about VS users
 
