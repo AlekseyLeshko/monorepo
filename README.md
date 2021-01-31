@@ -27,7 +27,7 @@ monorepo
 
 - [x] support eslint
   - [x] main config in the root
-  - [ ] custom config for each app with merge the main config
+  - [x] custom config for each app with merge the main config
 
 - [ ] add husky
 
