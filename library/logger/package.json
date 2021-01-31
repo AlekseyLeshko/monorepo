@@ -6,6 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/index.js",
+    "lint": "yarn eslint **/*.js",
     "clear": "rm -rf node_modules && rm -rf ./dist"
   }
 }

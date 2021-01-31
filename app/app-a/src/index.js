@@ -1,5 +1,8 @@
 const appame = 'app-a';
 
+// eslint-disable-next-line no-console
+console.log(`app:${appame}:start`);
+
 const logger = require('logger');
 const { calc } = require('calc');
 const { microappA } = require('microapp-a');
@@ -12,5 +15,5 @@ const z = microappB(y);
 
 logger.log([num, x, y, z]);
 
-console.log(`app:${appame}:start`);
+// eslint-disable-next-line no-console
 console.log(`app:${appame}:end`);

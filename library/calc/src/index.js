@@ -1,14 +1,18 @@
-console.log('library:calc:start');
+const libraryName = 'calc';
+
+// eslint-disable-next-line no-console
+console.log(`library:${libraryName}:start`);
 
 const logger = require('logger');
 const { add } = require('ramda');
 
-const calc = (num) => {
-  return add(num, 1);
-}
+const calc = (num) => add(num, 1);
+
+logger.log(add(calc(3)));
 
 module.exports = {
   calc,
-}
+};
 
-console.log('library:calc:end');
+// eslint-disable-next-line no-console
+console.log(`library:${libraryName}:end`);
