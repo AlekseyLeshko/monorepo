@@ -25,9 +25,13 @@ monorepo
   - [ ] main config in the root
   - [ ] custom config for each app with merge the main config
 
-- [ ] support eslint
-  - [ ] main config in the root
+- [x] support eslint
+  - [x] main config in the root
   - [ ] custom config for each app with merge the main config
+
+- [ ] add husky
+
+- [ ] think about VS users
 
 ### links
 - https://github.com/hfour/wsrun
