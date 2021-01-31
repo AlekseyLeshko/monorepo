@@ -29,7 +29,7 @@ monorepo
   - [x] main config in the root
   - [x] custom config for each app with merge the main config
 
-- [ ] add husky
+- [x] add husky
 
 - [ ] think about VS users
 
