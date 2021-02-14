@@ -28,6 +28,7 @@ monorepo
 - [x] support eslint
   - [x] main config in the root
   - [x] custom config for each app with merge the main config
+  - [ ] [Configuration Cascading and Hierarchy](https://eslint.org/docs/2.0.0/user-guide/configuring#configuration-cascading-and-hierarchy)
 
 - [x] add husky
 - [x] add lint-staged

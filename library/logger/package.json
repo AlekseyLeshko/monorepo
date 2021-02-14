@@ -1,12 +1,13 @@
 {
   "name": "logger",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "module": "src/index.js",
+  "main": "dist/index.js",
   "license": "MIT",
   "scripts": {
+    "build": "yarn clear && npm run compile",
     "clear": "rm -rf node_modules && rm -rf ./dist",
+    "compile": "tsc",
     "lint": "eslint **/*.js",
-    "start": "node src/index.js"
+    "start": "tsc --watch"
   }
 }

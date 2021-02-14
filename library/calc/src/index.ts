@@ -6,7 +6,7 @@ console.log(`library:${libraryName}:start`);
 const logger = require('logger');
 const { add } = require('ramda');
 
-const calc = (num) => add(num, 1);
+const calc = (num: number) => add(num, 1);
 
 logger.log(add(calc(3)));
 

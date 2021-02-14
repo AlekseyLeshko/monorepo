@@ -3,7 +3,7 @@ const libraryName = 'logger';
 // eslint-disable-next-line no-console
 console.log(`library:${libraryName}:start`);
 
-const log = (...args) => {
+const log = (...args: [string[] | string]) => {
   const str = JSON.stringify(args);
   // eslint-disable-next-line no-console
   console.log(`${libraryName}: ${str}`);
