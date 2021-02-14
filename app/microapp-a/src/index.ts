@@ -6,7 +6,7 @@ const { microappB } = require('microapp-b');
 // eslint-disable-next-line no-console
 console.log(`microapp:${microappName}:start`);
 
-const microappA = (num) => {
+const microappA = (num: number) => {
   const result = num - 1;
   logger.log([num, 1, result]);
   return result;
