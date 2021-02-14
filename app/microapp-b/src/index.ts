@@ -7,7 +7,7 @@ const { calc } = require('calc');
 const { add } = require('ramda');
 const logger = require('logger');
 
-const microappB = (num) => num + 1;
+const microappB = (num: number) => num + 1;
 
 logger.log('use ramda');
 logger.log(calc(add(3, 1)));
